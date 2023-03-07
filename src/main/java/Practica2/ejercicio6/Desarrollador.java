@@ -1,30 +1,42 @@
-package Practica2.ejercicio4;
+package Practica2.ejercicio6;
 
-public class Usuario {
+
+public class Desarrollador {
+
     protected ICanal canal;
     private boolean personal;
     private String name;
-    private Usuario destino;
+    private String tarea;
+    private Desarrollador destino;
 
-    public Usuario(String name, ICanal canal) {
+    public Desarrollador(String name, ICanal canal) {
         this.name = name;
         this.canal = canal;
+    }
+
+    public String getTarea() {
+        return tarea;
+    }
+
+    public Desarrollador setTarea(String tarea) {
+        this.tarea = tarea;
+        return this;
     }
 
     public boolean isPersonal() {
         return personal;
     }
 
-    public Usuario setPersonal(boolean personal) {
+    public Desarrollador setPersonal(boolean personal) {
         this.personal = personal;
         return this;
     }
 
-    public Usuario getDestino() {
+    public Desarrollador getDestino() {
         return destino;
     }
 
-    public Usuario setDestino(Usuario destino) {
+    public Desarrollador setDestino(Desarrollador destino) {
         this.destino = destino;
         return this;
     }
