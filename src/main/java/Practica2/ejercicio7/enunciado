@@ -4,3 +4,6 @@ hace al cajero, cuando el monto está entre 25% y 50% el agente de crédito reci
 pagos y le ofrece refinanciar su préstamo, cuando ya está sobre 50% pagado el
 supervisor recibe los pagos y ofrece nuevo préstamos, cuando ya se cancela el 100% el
 encargado de préstamos devuelve todos los documentos al cliente
+
+Chain responsability
+Singleton

@@ -6,5 +6,5 @@ desarrolladores suscritos al repositorio - tener 5 commits en el repositorio y v
 primer commit (commit 1) - eliminar a los 3 desarrolladores y adicionar otros 3 nuevos
 desarrolladores - volver al último commit (commit 5)
 
-Mediator
+Observer
 Memento
